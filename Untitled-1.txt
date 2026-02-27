@@ -1,0 +1,55 @@
+c:/Users/robde/Documents/Web Development/Client sites/dpMusic/dp_Music_Therapy/
+├── .gitignore
+├── .vscode/
+│   └─] settings.json (ignored)
+├── about-me.html
+├── about-music-therapy.html
+├── contact.html
+├─] dist/ (ignored)
+├── index.html
+├─] node_modules/ (ignored)
+├── package-lock.json
+├── package.json
+├── partials/
+│   ├── footer.html
+│   └── nav.html
+├── postcss.config.cjs
+├── privacy-policy.html
+├── programs-services.html
+├── public/
+│   └── images/
+│       ├── about-me.webp
+│       ├── about-music-therapy-hero.webp
+│       ├── benefits-for-family.png
+│       ├── common-goals.png
+│       ├── contact.webp
+│       ├── contract-services.png
+│       ├── dana.jpg
+│       ├── DanaLogo.png
+│       ├── early-childhood.jpg
+│       ├── entertainment.jpg
+│       ├── favicon_io/
+│       │   ├── android-chrome-192x192.png
+│       │   ├── android-chrome-512x512.png
+│       │   ├── apple-touch-icon.png
+│       │   ├── favicon-16x16.png
+│       │   ├── favicon-32x32.png
+│       │   ├── favicon.ico
+│       │   └── site.webmanifest
+│       ├── guitar-lessons.jpg
+│       ├── icon.svg
+│       ├── main-hero.png
+│       ├── private-session.jpg
+│       ├── programs-hero.png
+│       ├── therapy.png
+│       ├── what-happens.png
+│       ├── what-is-music.png
+│       ├── who-can-benefit.png
+│       └── why-therapy.png
+├── robots.txt
+├── sitemap.xml
+├── src/
+│   ├── main.js
+│   └── style.css
+├── tailwind.config.js
+└── vite.config.js
