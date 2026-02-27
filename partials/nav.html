@@ -1,0 +1,113 @@
+<header class="bg-blue-50 shadow-lg py-4 sticky top-0 z-50">
+  <div class="container mx-auto flex items-center justify-between px-4">
+    <!-- Logo -->
+    <a
+      href="index.html"
+      class="flex items-center text-primary hover:text-secondary"
+    >
+      <img src="/images/DanaLogo.png" alt="Dana Logo" class="w-16" />
+    </a>
+
+    <!-- Mobile Menu Button (Hidden on larger screens) -->
+    <div class="sm:hidden">
+      <button
+        id="menu-toggle"
+        class="text-gray-800 hover:text-primary focus:outline-none transition-colors duration-300 p-2"
+        aria-label="Open menu"
+      >
+        <svg
+          class="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Desktop Navigation (Hidden on smaller screens) -->
+    <nav class="hidden sm:block" aria-label="Desktop navigation">
+      <ul class="flex space-x-8">
+        <li>
+          <a
+            href="index.html"
+            class="hover:text-primary transition-colors duration-300"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="about-music-therapy.html"
+            class="hover:text-primary transition-colors duration-300"
+            >About Music Therapy</a
+          >
+        </li>
+        <li class="group relative">
+          <a
+            href="programs-services.html"
+            class="hover:text-primary transition-colors duration-300"
+            >Programs & Services</a
+          >
+        </li>
+        <li>
+          <a
+            href="about-me.html"
+            class="hover:text-primary transition-colors duration-300"
+            >About Me</a
+          >
+        </li>
+        <li>
+          <a
+            href="contact.html"
+            class="bg-primary font-semibold text-white px-4 py-2 rounded-md hover:bg-primary-hover hover:shadow-lg transition duration-300"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Mobile Menu (Hidden by default) -->
+  <nav
+    id="mobile-menu"
+    aria-label="Mobile navigation"
+    class="hidden sm:hidden bg-blue-50 border-t border-gray-200 transition-height duration-300 ease-in-out"
+  >
+    <ul class="px-4 py-2">
+      <li>
+        <a href="index.html" class="block py-2 hover:text-primary">Home</a>
+      </li>
+      <li>
+        <a href="about-music-therapy.html" class="block py-2 hover:text-primary"
+          >About Music Therapy</a
+        >
+      </li>
+      <li>
+        <a
+          href="programs-services.html"
+          id="services-dropdown-toggle"
+          class="block py-2 hover:text-primary"
+          >Programs & Services</a
+        >
+      </li>
+      <li>
+        <a href="about-me.html" class="block py-2 hover:text-primary"
+          >About Me</a
+        >
+      </li>
+      <li>
+        <a
+          href="contact.html"
+          class="block py-2 bg-primary hover:bg-primary-hover text-white rounded-md text-center transition duration-300"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
